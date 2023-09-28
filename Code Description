@@ -1,0 +1,11 @@
+A simple rock-paper-scissors game between a human player and the computer. 
+In this game, the computer and the human player make random selections of "rock," "paper," or "scissors," and the winner is determined based on the game's rules. 
+Here's an overview of how your code works:  
+1. Initialize scores for Player 1 (the computer) and Player 2 (the human) as 0.  
+2. Create dictionaries `actions` and `actions_1` to map the options ("rock," "paper," "scissor") to numeric values and vice versa. These mappings help simplify comparisons.  
+3. Set up a loop (`while cnt`) that runs for a total of 3 rounds. This means the game will have 3 rounds.  
+4. In each round, the computer randomly selects one of the options ("rock," "paper," "scissor") represented by numeric values (1, 2, 3). The human player is prompted to input their choice, and the input is validated to ensure it's one of the valid options.  
+5. The program then compares the computer's choice and the human player's choice to determine the winner using a predefined `result` dictionary. The dictionary maps combinations of choices to the winner (1 for the computer, 2 for the human, and 0 for a tie).  
+6. The program updates the scores for Player 1 (computer) and Player 2 (human) based on the result of each round.  
+7. After playing three rounds, the program checks the total scores. If Player 1 (computer) has a higher score, it declares the computer as the winner. If Player 2 (human) has a higher score, it declares the human as the winner. If the scores are tied, it declares a tie game.  
+8. The program prints the outcome of the game (computer win, human win, or tie).  This code allows you to play a simple rock-paper-scissors game against the computer. It repeats for three rounds, and the overall winner is determined based on the total scores after those rounds.
